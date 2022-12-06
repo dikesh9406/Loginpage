@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.Body2{
+    display: none;
+}
+@media(max-width:600px)
+{
+    .Body2 {
+        display: flex;
+        justify-content: center;
+        height: 270px;
+        background-color:  rgb(245, 103, 255);
+    }
+}
+
+
+
+

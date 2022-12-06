@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+
+  padding: 90px 0, 90px, 0;
+background-color: rgb(218, 215, 215);
+}
+.sub_main{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 400px;
+  box-shadow: 8px 9px 9px 8px rgb(209, 209, 208);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: rgb(255, 230, 230);
+}
+
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+
+.image{
+  /* background-color: blue; */
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 115px;
+}
+
+.profile{
+  height: 100px;
+ 
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 8px 0px;
+  border: none;
+  outline: none;
+  background-color: rgb(254, 252, 252);
+}
+
+.email{
+  height: 25px;
+  width: 24px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+
+}
+.pass{
+  height: 25px;
+  width: 24px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+
+}
+
+.name{
+  padding-left: 70px;
+  font-size: 20px;
+
+}
+
+.button1{
+  width: 350px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: rgb(245, 103, 255);
+  /* box-shadow: inset 0 0 10px 0; */
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  /* border: none; */
+ 
+  
+}
+.button1:hover{
+  background-color: rgb(245, 103, 255);
+  box-shadow: inset 0 0 10px 0;
+  
+  
+
+}
+.links:hover{
+  color: rgb(0, 0, 0);
+
+}
+@media (max-width: 500px) {
+  .sub_main{
+    width: 300px;
+    height: 350px;
+    margin-top: 150px;
+  } 
+  .button1{
+    width: 250px;
+    height: 40px;
+   
+    font-size: 20px;
+   
+  }
+  .name{
+    padding-left: 65px;
+  font-size: 17px;
+
+  }
+  .email{
+    height: 20px;
+  width: 19px;
+  padding: 12px 0 0 25px;
+
+  }
+  .pass{
+    height: 20px;
+    width: 19px;
+    padding: 12px 0 0 25px;
+  }
+  input{
+    width: 200px;
+    height: 40px;
+  }
+  .profile{
+    height: 70px;
+  }
+.imgs{
+  padding-top: 0px;
+
+}
+.image{
+  height:60px;
+}
+  
+  
+}
+.space{
+  padding-top: 10px;
+}
+.nav_1{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
